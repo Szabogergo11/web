@@ -7,22 +7,48 @@
     <title>Szabó Gergő oldala</title>
 </head>
 <body>
-<h1>Szabó Gergő</h1>
-<h2>Szabó Gergő</h2>
-<h3>Szabó Gergő</h3>
-<h4>Szabó Gergő</h4>
-<h5>Szabó Gergő</h5>
-<h6>Szabó Gergő</h6>
-<p>Ez itt egy bekezdés</p>
-
- Képlinkes<a href="képlink.html">itt</a>
-
-  <p>Lista<a href="lista.html">itt</a></p>
-
-  <p>Órarend <a href="tablazatok.html">itt</a></p>
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #e7e7e7;
+      background-color: #f3f3f3;
+    }
     
-  <p>Űrlap <a href="urlap.html">itt</a></p>
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #ddd;
+    }
+    
+    li a.active {
+      color: white;
+      background-color: #04AA6D;
+    }
+    </style>
 
+
+  
+  
+  
+  <ul>
+    <li><a href="képlink.html">Képlink</a></li>
+    <li><a href="lista.html">Lista</a></li>
+    <li><a href="tablazatok.html">Órarend</a></li>
+    <li><a href="urlap.html">Űrlap</a></li>
+  </ul>
     <img src="https://raw.githubusercontent.com/Szabogergo11/web/main/photo.jpg" alt="a képen engem láthatsz mindennel amit szeretek">
     
     
