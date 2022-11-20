@@ -4,8 +4,8 @@ div.nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e60202;
-  background-color: #c8ff00;
+  border: 1px solid red;
+  background-color: yellow;
 
 }
 
