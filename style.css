@@ -42,11 +42,10 @@ div.nav li a.active {
       color: purple;
     }
 
-footer {
+    footer {
   text-align: center;
   padding: 3px;
-  background-color: rgb(0, 174, 255);
+  background-color: rgb(0, 255, 128);
   color: rgb(0, 0, 0);
 }
-    
   
