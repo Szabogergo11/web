@@ -49,3 +49,6 @@ div.nav li a.active {
   color: rgb(0, 0, 0);
 }
   
+table, th, td {
+  border: 1px solid black;
+}
