@@ -54,3 +54,6 @@ th,
 td {
   border: 1px solid black;
 }
+div.box {
+width: 350px;
+}
