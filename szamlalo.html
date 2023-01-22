@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+    <link rel="stylesheet" href="style.css">
+    
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="képlink.html">Képlink</a></li>
+            <li><a href="lista.html">Lista</a></li>
+            <li><a href="tablazatok.html">Órarend</a></li>
+            <li><a href="urlap.html">Űrlap</a></li>
+            <li><a href="div.html">Div</a></li>
+            <li><a href="index2.html">Home2</a></li>
+        </ul>
+    </div>
+
+
+ <form action="javascript:void(0)">
+                <fieldset>
+                    <legend>Számológép</legend>
+                    <input type="number" name="szam" id="szam1" placeholder="SZÁM 1"> .
+                    <input type="number" name="szam" id="szam2" placeholder="SZÁM 2"> =
+                    <input type="text" id="eredmeny" placeholder="eredmény" readonly>
+                    <br><br>
+                    <label for="muv">művelet:</label>
+                    <input type="button" name="muv" value="+" onclick="ad()">
+                    <input type="button" name="muv" value="-" onclick="kiv()">
+                    <input type="button" name="muv" value="*" onclick="szor()">
+                    <input type="button" name="muv" value="/" onclick="oszt()">
+                    <input type="reset" name="muv" value="DEL">
+                </fieldset>
+  </form>
+
+<script>
+        function ad() {
+            eredmeny.value = Number(szam1.value) + Number(szam2.value);
+        }
+
+        function kiv() {
+             eredmeny.value = Number(szam1.value) - Number(szam2.value);
+        }
+
+
+        function szor() {
+            eredmeny.value = Number(szam1.value) * Number(szam2.value);
+        }
+
+
+        function oszt() {
+            eredmeny.value = Number(szam1.value) / Number(szam2.value);
+        }
+    </script>
+
+
+
+
+
+
+
+<footer>
+    <p>Szerző: Szabó Gergő <br>
+        <a href="mailto:szabog1@kkszki.hu">szabog1@kkszki.hu</a>
+    </p>
+</footer>
+
+</body>
+</html>
